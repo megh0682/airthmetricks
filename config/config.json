@@ -7,14 +7,17 @@
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
-    "password": "*********",
+    "username": "bodhi82",
+    "password": "kuttu040109",
     "database": "mathgame",
-    "host": "127.0.0.1",
+    "host": "bodhi.cijtkbfof6cm.us-west-2.rds.amazonaws.com",
     "dialect": "mysql"
   },
   "production": {
-    "dialect": "mysql",
-    "use_env_variable": "DATABASE_URL"
+    "username": "bodhi82",
+    "password": "kuttu040109",
+    "database": "mathgame",
+    "host": "bodhi.cijtkbfof6cm.us-west-2.rds.amazonaws.com",
+    "dialect": "mysql"
   }
 }
