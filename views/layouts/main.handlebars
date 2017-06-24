@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	    <link rel="stylesheet" type="text/css" href="/css/reset.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		{{!--<link rel="stylesheet" href="/css/styles.css" type="text/css" />--}}
+		<link rel="stylesheet" href="/css/cssdraft.css" type="text/css" />
+	    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,600,700" rel="stylesheet">
+
+		<title>Arithme-tricks</title>
+</head>
+    
+<body>
+     
+<div class="mycontainer">
+
+	  {{#if success_msg}}
+		  <div class="alert alert-success">{{success_msg}}</div>
+		{{/if}}
+
+		{{#if error_msg}}
+			<div class="alert alert-danger">{{error_msg}}</div>
+		{{/if}}
+
+		{{#if error}}
+			<div class="alert alert-danger">{{error}}</div>
+		{{/if}}
+    
+
+	{{{ body }}}
+	
+<script src="/js/student.js"></script>	
+<script src="/js/teacher.js"></script>
+<script src="/js/util.js"></script>
+</div> <!-- END OF CONTAINER -->
+
+<footer class="siteFooter">
+<p>&copy; 2017 Aritmetirks</p>
+</footer>
+
+</body>
+</html>
