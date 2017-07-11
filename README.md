@@ -1,7 +1,7 @@
 # airthmetricks
 An airthmetricks prototype application to help facilitate and manage the results of math tests for elementary teachers. The app is created on node js platform using express framework. The data is stored in mysql db using sequelize ORM.Routing is established using express router. It provides basic authentication using passport js library.
 
-#### Demo - https://salty-savannah-75922.herokuapp.com
+#### Demo - https://airthmetricks.herokuapp.com/
 
 #### Test Data
 Teacher login - gupta123/tester123
