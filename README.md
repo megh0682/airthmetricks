@@ -18,6 +18,7 @@ Student login - kenny123/tester123
 (A)
 1. Login as a teacher
 2. Add student to class 101
+
 (B)
 1. Login as a teacher
 2. View grade level leader board
